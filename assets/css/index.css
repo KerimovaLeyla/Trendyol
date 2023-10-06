@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    block-size: border-box;
+    list-style-type: none;}
+    
+
+
+.container{width: 1200;}
+    
+.header{
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    background: #FFFFFF;}
+
+.kupon{
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 5px;}
+
+.kupon a{
+    text-decoration:none;
+    color: #999;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 25px 5px 0px;}
+
+
+
+.all{ display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;}
+
+.logo{
+    width: 146px;
+    cursor: pointer;}
+
+.input input{
+    padding: 5px ;
+    width: 600px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #F3F3F3;}
+
+#search{
+    width: 16px;
+    height: 16px;
+    right: 35%;
+    position: absolute;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2718%27 height=%2718%27 viewBox=%270 0 18 18%27%3E%3Cpath fill=%27%23F27A1A%27 d=%27M18.711 17.306l-4.684-4.703a7.49 7.49 0 0 0 1.864-4.932C15.891 3.441 12.327 0 7.946 0S0 3.441 0 7.671s3.565 7.671 7.946 7.671a8.056 8.056 0 0 0 4.552-1.388l4.72 4.74c.197.197.462.306.746.306.27 0 .525-.1.718-.28a.977.977 0 0 0 .03-1.414zM7.946 2.001c3.238 0 5.873 2.544 5.873 5.67 0 3.127-2.635 5.67-5.873 5.67-3.239 0-5.873-2.543-5.873-5.67 0-3.126 2.634-5.67 5.873-5.67z%27/%3E%3C/svg%3E");
+}
+
+
+.account ul {
+    display: flex;}
+.account ul li {
+    margin: 0 10px;}
+#sira{
+    height: 38px;
+    border-bottom: solid 1px ;}
+.ürünler_sirasi{display: flex;  
+    justify-content: space-evenly;}
+.ürünler_sirasi li:hover, .account li:hover, .pagecontent span:hover{
+    color: #F27A1A;
+    cursor: pointer;}
+
+
+
+.shops{ display: flex;
+    margin-top: 50px;
+    width: 1200;
+    height: 140px;
+    justify-content: space-around;}
+.shops img{
+    width: 100%;}
+.item{  display: flex;
+    width: 130px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;}
+.img{
+    width: 70px;
+    height: 70px;}
+.span{
+    width: 75px;
+    height: 40px;}
+
+
+.banner{ display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    justify-content: center;}
+
+.mehsul{display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+    
+
+.bottom{ display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;}
+.bottom img{
+    width: 383px;
+    height: 187px;
+    border-radius: 5px;}
+.bottom span{display: flex;
+    background: #1b1b1b;
+    color: #fff;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 17px;
+    font-size: 14px;
+    overflow: hidden;
+    border-radius: 6px;}
